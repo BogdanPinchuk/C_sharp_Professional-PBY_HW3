@@ -32,7 +32,8 @@ namespace LesApp3
         /// <param name="e"></param>
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-
+            // установка кольору
+            cp.SelectedColor = Colors.Gold;
         }
 
         /// <summary>
@@ -42,7 +43,17 @@ namespace LesApp3
         /// <param name="e"></param>
         private void Cp_SelectedColorChanged(object sender, RoutedPropertyChangedEventArgs<Color?> e)
         {
+            // відображення назви кольору
             lb.Content = cp.SelectedColorText;
+        }
+
+        /// <summary>
+        /// Дії при натисканні на кнопку
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Bt_Click(object sender, RoutedEventArgs e)
+        {
         }
     }
 }

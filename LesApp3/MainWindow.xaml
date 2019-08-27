@@ -9,8 +9,8 @@
         Title="LesApp3" Height="172.837" Width="292.333" Loaded="Window_Loaded">
     <Grid>
         <Label x:Name="lb" Content="Label" HorizontalAlignment="Left" Margin="101,23,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-        <Button x:Name="bt" Content="Save" HorizontalAlignment="Left" Margin="103,101,0,0" VerticalAlignment="Top" Width="75"/>
-        <xctk:ColorPicker x:Name="cp" HorizontalAlignment="Left" Margin="101,61,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,2.5" Width="79" SelectedColorChanged="Cp_SelectedColorChanged"/>
+        <Button x:Name="bt" Content="Save" HorizontalAlignment="Left" Margin="101,88,0,0" VerticalAlignment="Top" Width="75" Click="Bt_Click"/>
+        <xctk:ColorPicker x:Name="cp" HorizontalAlignment="Left" Margin="101,54,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,2.5" Width="79" SelectedColorChanged="Cp_SelectedColorChanged"/>
 
     </Grid>
 </Window>
