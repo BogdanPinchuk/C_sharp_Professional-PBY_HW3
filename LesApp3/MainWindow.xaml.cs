@@ -33,7 +33,7 @@ namespace LesApp3
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             // установка кольору
-            cp.SelectedColor = Colors.Gold;
+            cp.SelectedColor = Properties.Settings.Default.SaveColor;
         }
 
         /// <summary>
@@ -54,6 +54,9 @@ namespace LesApp3
         /// <param name="e"></param>
         private void Bt_Click(object sender, RoutedEventArgs e)
         {
+            Properties.Settings.Default.SaveColor = (Color)cp.SelectedColor;
+            // Збереження налаштувань
+            Properties.Settings.Default.Save();
         }
     }
 }
