@@ -13,10 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-// В даному прикладі використано збереження налаштувань через Properties.
-// стр. 302, 2008 C#. Советы программистам (Климов А. П.)
-
-namespace LesApp3
+namespace LesApp4
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
@@ -36,7 +33,7 @@ namespace LesApp3
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             // установка кольору
-            cp.SelectedColor = Properties.Settings.Default.SaveColor;
+            //cp.SelectedColor = Properties.Settings.Default.SaveColor;
         }
 
         /// <summary>
@@ -47,9 +44,9 @@ namespace LesApp3
         private void Cp_SelectedColorChanged(object sender, RoutedPropertyChangedEventArgs<Color?> e)
         {
             // відображення назви кольору
-            lb.Content = cp.SelectedColorText;
+            //lb.Content = cp.SelectedColorText;
             // установка кольору фону label
-            lb.Background = new SolidColorBrush(cp.SelectedColor.Value);
+            //lb.Background = new SolidColorBrush(cp.SelectedColor.Value);
         }
 
         /// <summary>
@@ -59,9 +56,9 @@ namespace LesApp3
         /// <param name="e"></param>
         private void Bt_Click(object sender, RoutedEventArgs e)
         {
-            Properties.Settings.Default.SaveColor = cp.SelectedColor.Value;
+            //Properties.Settings.Default.SaveColor = cp.SelectedColor.Value;
             // Збереження налаштувань
-            Properties.Settings.Default.Save();
+            //Properties.Settings.Default.Save();
         }
     }
 }

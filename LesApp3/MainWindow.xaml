@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:LesApp3"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" x:Class="LesApp3.MainWindow"
         mc:Ignorable="d"
-        Title="LesApp3" Height="172.837" Width="292.333" Loaded="Window_Loaded">
+        Title="LesApp3 (saving with properties)" Height="172.837" Width="292.333" Loaded="Window_Loaded">
     <Grid>
-        <Label x:Name="lb" Content="Label" HorizontalAlignment="Left" Margin="101,23,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-        <Button x:Name="bt" Content="Save" HorizontalAlignment="Left" Margin="101,88,0,0" VerticalAlignment="Top" Width="75" Click="Bt_Click"/>
-        <xctk:ColorPicker x:Name="cp" HorizontalAlignment="Left" Margin="101,54,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,2.5" Width="79" SelectedColorChanged="Cp_SelectedColorChanged"/>
+        <Label x:Name="lb" Content="Label" HorizontalAlignment="Left" Margin="101,23,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" BorderBrush="Black" BorderThickness="1" Width="79"/>
+        <Button x:Name="bt" Content="Save" HorizontalAlignment="Left" Margin="101,102,0,0" VerticalAlignment="Top" Width="79" Click="Bt_Click"/>
+        <xctk:ColorPicker x:Name="cp" HorizontalAlignment="Left" Margin="101,66,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,2.5" Width="79" SelectedColorChanged="Cp_SelectedColorChanged"/>
 
     </Grid>
 </Window>

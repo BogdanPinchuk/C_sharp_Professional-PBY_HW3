@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesApp0", "LesApp0\LesApp0.csproj", "{9F733C03-4EDF-473F-B9A4-C3305A568C4F}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesApp2", "LesApp2\LesApp2.csproj", "{0C051753-6F90-4E67-BB91-B64A5634143C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesApp3", "LesApp3\LesApp3.csproj", "{D0E42F30-BA68-4B03-A9D8-2598BFB7AD8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesApp4", "LesApp4\LesApp4.csproj", "{74F52476-479D-4110-A65D-4D8CEE049400}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{D0E42F30-BA68-4B03-A9D8-2598BFB7AD8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0E42F30-BA68-4B03-A9D8-2598BFB7AD8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0E42F30-BA68-4B03-A9D8-2598BFB7AD8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F52476-479D-4110-A65D-4D8CEE049400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F52476-479D-4110-A65D-4D8CEE049400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F52476-479D-4110-A65D-4D8CEE049400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F52476-479D-4110-A65D-4D8CEE049400}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68702FFA-3BF7-4824-964A-28367B3C325B}
 	EndGlobalSection
 EndGlobal
