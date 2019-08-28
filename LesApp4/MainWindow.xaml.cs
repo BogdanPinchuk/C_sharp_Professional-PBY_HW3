@@ -18,6 +18,8 @@ using System.Windows.Shapes;
 
 // https://docs.microsoft.com/ru-ru/dotnet/standard/io/isolated-storage
 
+// Зберігає в "c:\Users\Bohdan\AppData\Local\IsolatedStorage\"
+
 namespace LesApp4
 {
     /// <summary>

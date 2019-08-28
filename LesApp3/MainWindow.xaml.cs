@@ -16,6 +16,8 @@ using System.Windows.Shapes;
 // В даному прикладі використано збереження налаштувань через Properties.
 // стр. 302, 2008 C#. Советы программистам (Климов А. П.)
 
+// Зберігає в "c:\Users\Bohdan\AppData\Local\LesApp3\"
+
 namespace LesApp3
 {
     /// <summary>
